@@ -1,0 +1,25 @@
+{
+  "name": "customize-bulma",
+  "version": "0.9.0",
+  "description": "Create a customized version of Bulma CSS.",
+  "main": "sass/styles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/settipalli/customize-bulma.git"
+  },
+  "keywords": [
+    "bulma",
+    "css",
+    "custom",
+    "customize"
+  ],
+  "author": "Santhoshkumar Settipalli",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/settipalli/customize-bulma/issues"
+  },
+  "homepage": "https://github.com/settipalli/customize-bulma#readme"
+}

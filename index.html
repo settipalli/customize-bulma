@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customize Bulma</title>
+    <link href="dist/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<nav aria-label="main navigation" class="navbar is-transparent" role="navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <h1 class="title is-4">Bulma Customizer</h1>
+        </a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navbarBasic" href="#"
+           role="button">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu" id="navbarBasic">
+
+        <div class="navbar-start">
+            <a class="navbar-item" href="">Home</a>
+            <a class="navbar-item" href="">Documentation</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="">More</a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="">About</a>
+                    <a class="navbar-item" href="">Jobs</a>
+                    <a class="navbar-item" href="">Contact</a>
+                    <hr class="navbar-divider"/>
+                    <a class="navbar-item" href="">Report an issue</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-info" href="">
+                        <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-danger" href="">
+                        <strong>Log In</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="hero is-medium is-info is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Bulma</h1>
+            <h2 class="subtitle">Customize to your heart's content</h2>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="columns">
+        <div class="column is-one-fifth">
+            <aside class="menu">
+                <p class="menu-label">General</p>
+                <ul class="menu-list">
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">Customers</a></li>
+                </ul>
+                <p class="menu-label">Administration</p>
+                <ul class="menu-list">
+                    <li><a href="">Team Settings</a></li>
+                    <li>
+                        <a class="is-active" href="">Manage Your Team</a>
+                        <ul>
+                            <li><a href="">Members</a></li>
+                            <li><a href="">Plugins</a></li>
+                            <li><a href="">Add a member</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Invitation</a></li>
+                    <li><a href="">Cloud Storage Environment Settings</a></li>
+                    <li><a href="">Authentication</a></li>
+                </ul>
+                <p class="menu-label">Transactions</p>
+                <ul class="menu-list">
+                    <li><a href="">Payments</a></li>
+                    <li><a href="">Transfers</a></li>
+                    <li><a href="">Balance</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column">
+            <nav aria-label="breadcrumbs" class="breadcrumb">
+                <ul>
+                    <li><a href="#">Bulma</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li class="is-active">
+                        <a aria-current="page" href="#">Breadcrumb</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="section">
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">Component 1</p>
+                                <a href="" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                                </a>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                    <a href="#">@random</a><a href="#">#random</a>
+                                    <br>
+                                    <time datetime="2019-02-21">11:09 PM - 21 Feb 2019</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Save</a>
+                                <a href="#" class="card-footer-item">Edit</a>
+                                <a href="#" class="card-footer-item">Delete</a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">Component 1</p>
+                                <a href="" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                                </a>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                    <a href="#">@random</a><a href="#">#random</a>
+                                    <br>
+                                    <time datetime="2019-02-21">11:09 PM - 21 Feb 2019</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Save</a>
+                                <a href="#" class="card-footer-item">Edit</a>
+                                <a href="#" class="card-footer-item">Delete</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">Component 1</p>
+                                <a href="" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                                </a>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                    <a href="#">@random</a><a href="#">#random</a>
+                                    <br>
+                                    <time datetime="2019-02-21">11:09 PM - 21 Feb 2019</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Save</a>
+                                <a href="#" class="card-footer-item">Edit</a>
+                                <a href="#" class="card-footer-item">Delete</a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">Component 1</p>
+                                <a href="" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                                </a>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                    <a href="#">@random</a><a href="#">#random</a>
+                                    <br>
+                                    <time datetime="2019-02-21">11:09 PM - 21 Feb 2019</time>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="card-footer-item">Save</a>
+                                <a href="#" class="card-footer-item">Edit</a>
+                                <a href="#" class="card-footer-item">Delete</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

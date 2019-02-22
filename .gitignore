@@ -103,6 +103,9 @@ typings/
 # next.js build output
 .next
 
+# dist directory
+dist/
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
